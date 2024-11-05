@@ -1,0 +1,104 @@
+/* General footer styling */
+#footer {
+    background-image: linear-gradient(to right, #e6182b, #ff7200);
+    color: #fff;
+    padding: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+}
+
+/* Footer sections */
+#footer div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+#footer h2 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #fff;
+    padding-bottom: 20px;
+
+
+}
+
+/* Brand section */
+#footer h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+#footer p {
+    font-size: 0.9em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Social links */
+#footer div div li {
+    list-style: none;
+    margin: 5px 0;
+}
+
+#footer div div li a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+#footer div div li a:hover {
+    color: #ffd700;
+}
+
+/* Useful Links and Astrology Services */
+.useful-links,
+.astrology-services {
+    margin-top: 15px;
+}
+
+.useful-links li,
+.astrology-services li {
+
+    list-style: none;
+    margin-bottom: 13px;
+}
+
+.useful-links li::marker,
+.astrology-services li::marker {
+    content: ' >  ';
+    font-size: 14px;
+
+
+
+}
+
+.useful-links a,
+.astrology-services a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9em;
+    margin-left: 8px;
+}
+
+.useful-links a:hover,
+.astrology-services a:hover {
+    text-decoration: underline;
+
+}
+
+/* Contact Us Section */
+.contact-us p {
+    margin-bottom: 8px;
+    font-size: 0.9em;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    #footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
